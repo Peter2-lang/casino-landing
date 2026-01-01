@@ -1,0 +1,42 @@
+
+body {
+  margin:0; padding:0;
+  background:#111;
+  color:#fff;
+  font-family:Arial, sans-serif;
+  text-align:center;
+}
+
+header {
+  padding:60px 20px;
+  background:#000;
+}
+
+h1 { font-size:40px; color:gold; }
+p { font-size:18px; opacity:0.8; }
+
+.buttons {
+  margin:50px auto;
+  width:90%;
+  max-width:400px;
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+
+.btn {
+  padding:15px;
+  background:gold;
+  color:#000;
+  text-decoration:none;
+  font-weight:bold;
+  border-radius:6px;
+  display:block;
+}
+
+footer {
+  margin-top:80px;
+  padding:20px;
+  background:#000;
+  opacity:0.6;
+}
